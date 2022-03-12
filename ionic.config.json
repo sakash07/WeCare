@@ -1,0 +1,7 @@
+{
+  "name": "WeCare",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
