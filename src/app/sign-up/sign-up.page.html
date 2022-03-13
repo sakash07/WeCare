@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>signUp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<div class="position">
+  <ion-item>
+    <ion-label class = "label"><h1>Username</h1></ion-label>
+    <ion-input class = "input-values"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Password</h1></ion-label>
+    <ion-input  class = "input-values" type="password"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Address</h1></ion-label>
+    <ion-input  class = "input-values" type="text"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-radio-group>
+
+        <ion-label>
+          Role
+        </ion-label>
+
+
+      <ion-item>
+        <ion-label>Doctor</ion-label>
+        <ion-radio  value="Doctor"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Nurse</ion-label>
+        <ion-radio  value="Nurse"></ion-radio>
+      </ion-item>
+      </ion-radio-group>
+      </ion-list>
+
+
+  <ion-button routerLink="/">SignUp</ion-button>
+
+</div>
+
+</ion-content>

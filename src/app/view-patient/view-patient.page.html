@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>viewPatient</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <div class="position">
+
+  <ion-item>
+    <ion-label class = "label"><h1>Enter ID</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="Id" ></ion-input>
+  </ion-item>
+
+  <ion-button (click) = "btnClicked()">GET</ion-button>
+
+  <ion-item>
+    <ion-label class = "label"><h1>First Name</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="firstName"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Last Name</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="lastName"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Date of Birth</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="dob"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Gender</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="gender"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Age</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="age"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Telephone</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="telephone"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class = "label"><h1>Address</h1></ion-label>
+    <ion-input class = "input-values" [(ngModel)] ="address"></ion-input>
+  </ion-item>
+
+  <ion-button class="button" routerLink="/welcome-page">Back</ion-button>
+
+</div>
+
+</ion-content>
